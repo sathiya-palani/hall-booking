@@ -1,0 +1,23 @@
+{
+  "name": "hall-booking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/sathiya-palani/hall-booking.git"
+  },
+  "author": "sathiya",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongose": "^0.0.2-security",
+    "nodemon": "^3.1.4"
+  }
+}

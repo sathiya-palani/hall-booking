@@ -27,7 +27,12 @@ let customers = [
       ] }
 ];
 
-
+// for first page 
+const pages = (req, res) => {
+  res.send(200).send({
+    message:"Welcome to the task"
+  })
+}
 
 // List all Rooms and its details
 const getAllRooms=(req, res)=> {
@@ -139,6 +144,7 @@ const getAllCustomers=(req, res) => {
 
 
   module.exports = {
+    pages,
     getAllRooms,
     createRoom,
     bookingRoom,

@@ -3,6 +3,7 @@ const express = require('express')
 const HallController = require('../controller/hallController.js');
 const router = express.Router()
 
+router.get('/',HallController.pages)
 router.get('/rooms/all',HallController.getAllRooms)
 router.post('/rooms/create',HallController.createRoom)
 router.post('/createbooking/:id',HallController.bookingRoom)
